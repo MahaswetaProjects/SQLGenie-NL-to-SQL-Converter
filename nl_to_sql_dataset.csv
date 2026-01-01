@@ -1,0 +1,6 @@
+NL_Query,SQL
+Get all employees older than 30,SELECT * FROM Employees WHERE Age > 30;
+List all orders for customer 101,SELECT * FROM Orders WHERE CustomerID = 101;
+Show product names with default status 'Available',"SELECT ProductID, Status FROM Products WHERE Status = 'Available';"
+Insert a new student with ID 1 and Name 'Rahi',"INSERT INTO Students (ID, Name) VALUES (1, 'Rahi');"
+Delete all orders of customer 9999,DELETE FROM Orders WHERE CustomerID = 9999;
